@@ -1,0 +1,110 @@
+h1, h2, h3, p {
+	font-family: 'Josefin Sans', sans-serif !important;
+}
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  }
+
+a:hover {
+	text-decoration: none;
+}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.introbox {
+	width: 600px;
+}
+
+.icon img {
+	margin-left: 100px;
+}
+
+.bglogo {
+	height: 200px;
+	float: right;
+	margin-right: 100px;
+	border-radius: 50px;
+}
+
+.smlogo {
+	float: left;
+	height: 40px;
+	border-radius: 50px;
+	margin-right: 10px;
+	margin-top: 4px;
+
+}
+
+.userError {
+	margin-top: 20px;
+}
+
+.header-green {
+	color: #3FC380 !important;
+}
+
+.button-row {
+	margin-bottom: 15px;
+}
+
+/**************** 
+BOOTSTRAP OVERRIDES 
+****************/
+
+.jumbotron {
+	background-color: white;
+	height: 300px;
+}
+
+.btn {
+	background-color: #3FC380;
+	color: white; 
+}
+
+.close {
+	/*height of x close button on error*/
+	line-height: 0.8;
+}
+
+#upcoming {
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Josefin Sans', sans-serif !important;
+	color: #cc66cc;
+
+}
+
+.btn-info {
+	/*button border color*/
+	border-color: #3FC380;
+}
+
+.text-info {
+	/*color of todays box */
+	color: #cc66cc;
+}
+
+.btn-info:hover, 
+.btn-info:focus, 
+.btn-info:active, 
+.btn-info.active, 
+.open .dropdown-toggle.btn-info {
+	/*color of border around highlighted calender box*/
+	border-color: white;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.open .dropdown-toggle.btn-info {
+	/*Date background color*/
+	background-color: #D2D7D3;
+}
